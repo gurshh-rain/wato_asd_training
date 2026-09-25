@@ -1,3 +1,7 @@
-# planner_node:
-#   ros__parameters:
-    
+planner_node:
+  ros__parameters:
+    occupied_threshold: 65
+    allow_diagonal: true
+    goal_tolerance: 0.5
+    progress_timeout: 3.0
+    timer_rate: 2.0
