@@ -1,0 +1,46 @@
+SetCTestConfiguration:BuildDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+UpdateCTestConfiguration  from :/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+Parse Config file:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+SetCMakeVariable:CTEST_SITE:Gurshaans-MacBook-Pro.local
+SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker
+SetCMakeVariable:CTEST_BINARY_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/opt/homebrew/bin/cmake" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker"
+SetCMakeVariable:CTEST_TEST_TIMEOUT:10000000
+UpdateCTestConfiguration  from :/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+Parse Config file:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+SetCMakeVariable:CTEST_SITE:Gurshaans-MacBook-Pro.local
+SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker
+SetCMakeVariable:CTEST_BINARY_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/opt/homebrew/bin/cmake" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker"
+SetCTestConfiguration:BuildDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+SetCTestConfiguration:SourceDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker
+Test project /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_dynamic_tracker
+
+1: Test command: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml" "--package-name" "dynamic_tracker" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/ament_cmake_gtest/test_dynamic_tracker.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml"
+1: Working Directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker':
+1:  - /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker --gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml
+1: dyld[25374]: symbol not found in flat namespace '_PyExc_RuntimeError'
+1: -- run_test.py: return code -6
+1: -- run_test.py: generate result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml' with failed test
+1: -- run_test.py: verify result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml'
+1/1 Test #1: test_dynamic_tracker .............***Failed    9.17 sec
+
+0% tests passed, 1 tests failed out of 1
+
+Label Time Summary:
+gtest    =   9.17 sec*proc (1 test)
+
+Total Test time (real) =   9.17 sec
+
+The following tests FAILED:
+	  1 - test_dynamic_tracker (Failed)                     gtest

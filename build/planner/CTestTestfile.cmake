@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/planner
+# Build directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(test_dstar_lite_planner "/Users/user/.local/share/mamba/envs/ros_humble/bin/python3" "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner/test_results/planner/test_dstar_lite_planner.gtest.xml" "--package-name" "planner" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner/ament_cmake_gtest/test_dstar_lite_planner.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner/test_dstar_lite_planner" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner/test_results/planner/test_dstar_lite_planner.gtest.xml")
+set_tests_properties(test_dstar_lite_planner PROPERTIES  LABELS "gtest" REQUIRED_FILES "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner/test_dstar_lite_planner" TIMEOUT "60" WORKING_DIRECTORY "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner" _BACKTRACE_TRIPLES "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/planner/CMakeLists.txt;43;ament_add_gtest;/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/planner/CMakeLists.txt;0;")
+subdirs("gtest")

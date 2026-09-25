@@ -1,0 +1,54 @@
+-- The C compiler identification is AppleClang 21.0.0.21000334
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake/cmake)
+-- Found Python3: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 (found version "3.12.14") found components: Interpreter
+-- Found rclcpp: 16.0.19 (/Users/user/.local/share/mamba/envs/ros_humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found rmw_implementation_cmake: 6.1.2 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found geometry_msgs: 4.9.1 (/Users/user/.local/share/mamba/envs/ros_humble/share/geometry_msgs/cmake)
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/moving_obstacles
+[ 50%] Building CXX object CMakeFiles/moving_obstacles_node.dir/src/moving_obstacles_node.cpp.o
+[100%] Linking CXX executable moving_obstacles_node
+[100%] Built target moving_obstacles_node
+-- Install configuration: ""
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/lib/moving_obstacles/moving_obstacles_node
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/config
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/config/params.yaml
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/ament_index/resource_index/package_run_dependencies/moving_obstacles
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/ament_index/resource_index/parent_prefix_path/moving_obstacles
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/ament_prefix_path.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/ament_prefix_path.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/path.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/path.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.bash
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.zsh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/package.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/ament_index/resource_index/packages/moving_obstacles
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/cmake/moving_obstaclesConfig.cmake
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/cmake/moving_obstaclesConfig-version.cmake
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/package.xml

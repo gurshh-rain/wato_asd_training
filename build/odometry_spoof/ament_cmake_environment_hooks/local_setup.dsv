@@ -1,0 +1,2 @@
+source;share/odometry_spoof/environment/ament_prefix_path.sh
+source;share/odometry_spoof/environment/path.sh

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260925-0150-Experimental"
+	Name="Gurshaans-MacBook-Pro.local"
+	Generator="ctest-4.4.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="21.0.0.21000334"
+	OSName="macOS"
+	Hostname="Gurshaans-MacBook-Pro.local"
+	OSRelease="26.6.2"
+	OSVersion="25G83"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M5"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="10"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="9216"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="10"
+	ProcessorClockFrequency="0.000000"
+	>
+	<Testing>
+		<StartDateTime>Sep 24 21:50 EDT</StartDateTime>
+		<StartTestTime>1790301036</StartTestTime>
+		<TestList>
+			<Test>./test_dynamic_tracker</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>test_dynamic_tracker</Name>
+			<Path>.</Path>
+			<FullName>./test_dynamic_tracker</FullName>
+			<FullCommandLine>/Users/user/.local/share/mamba/envs/ros_humble/bin/python3 "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml" "--package-name" "dynamic_tracker" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/ament_cmake_gtest/test_dynamic_tracker.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml"</FullCommandLine>
+			<StartTestTime>1790301036.832697</StartTestTime>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>9.172587</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/user/.local/share/mamba/envs/ros_humble/bin/python3 "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml" "--package-name" "dynamic_tracker" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/ament_cmake_gtest/test_dynamic_tracker.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker':
+ - /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker --gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml
+dyld[25374]: symbol not found in flat namespace '_PyExc_RuntimeError'
+-- run_test.py: return code -6
+-- run_test.py: generate result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml' with failed test
+-- run_test.py: verify result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Sep 24 21:50 EDT</EndDateTime>
+		<EndTestTime>1790301046</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

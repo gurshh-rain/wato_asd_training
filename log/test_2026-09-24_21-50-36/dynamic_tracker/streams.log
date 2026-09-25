@@ -1,0 +1,48 @@
+[0.145s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker': AMENT_PREFIX_PATH=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.149s] SetCTestConfiguration:BuildDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+[0.149s] UpdateCTestConfiguration  from :/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+[0.149s] Parse Config file:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+[0.149s] SetCMakeVariable:CTEST_SITE:Gurshaans-MacBook-Pro.local
+[0.149s] SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker
+[0.149s] SetCMakeVariable:CTEST_BINARY_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+[0.149s] SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/opt/homebrew/bin/cmake" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker"
+[0.149s] SetCMakeVariable:CTEST_TEST_TIMEOUT:10000000
+[0.150s] UpdateCTestConfiguration  from :/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+[0.150s] Parse Config file:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini
+[0.150s] SetCMakeVariable:CTEST_SITE:Gurshaans-MacBook-Pro.local
+[0.150s] SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker
+[0.150s] SetCMakeVariable:CTEST_BINARY_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+[0.150s] SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/opt/homebrew/bin/cmake" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker"
+[0.150s] SetCTestConfiguration:BuildDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+[0.151s] SetCTestConfiguration:SourceDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker
+[0.151s] Test project /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+[0.151s] Constructing a list of tests
+[0.151s] Done constructing a list of tests
+[0.151s] Updating test list for fixtures
+[0.151s] Added 0 tests to meet fixture requirements
+[0.151s] Checking test dependency graph...
+[0.151s] Checking test dependency graph end
+[0.151s] test 1
+[0.151s]     Start 1: test_dynamic_tracker
+[0.151s] 
+[0.151s] 1: Test command: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml" "--package-name" "dynamic_tracker" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/ament_cmake_gtest/test_dynamic_tracker.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml"
+[0.151s] 1: Working Directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+[0.151s] 1: Test timeout computed to be: 60
+[0.219s] 1: -- run_test.py: invoking following command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker':
+[0.219s] 1:  - /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker --gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml
+[9.303s] 1: dyld[25374]: symbol not found in flat namespace '_PyExc_RuntimeError'
+[9.313s] 1: -- run_test.py: return code -6
+[9.314s] 1: -- run_test.py: generate result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml' with failed test
+[9.314s] 1: -- run_test.py: verify result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml'
+[9.323s] 1/1 Test #1: test_dynamic_tracker .............***Failed    9.17 sec
+[9.324s] 
+[9.324s] 0% tests passed, 1 tests failed out of 1
+[9.324s] 
+[9.324s] Label Time Summary:
+[9.324s] gtest    =   9.17 sec*proc (1 test)
+[9.324s] 
+[9.324s] Total Test time (real) =   9.17 sec
+[9.325s] 
+[9.325s] The following tests FAILED:
+[9.325s] 	  1 - test_dynamic_tracker (Failed)                     gtest
+[9.359s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker' returned '8': AMENT_PREFIX_PATH=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -126,6 +126,14 @@
             "#90ff6bff",
             "#eeff6b80"
           ]
+        },
+        "/dynamic_costmap": {
+          "visible": true,
+          "colorMode": "costmap",
+          "alpha": 0.65
+        },
+        "/tracked_obstacles": {
+          "visible": true
         }
       },
       "layers": {
@@ -174,7 +182,7 @@
           "instanceId": "cadf14d8-072e-4af6-8fd0-60bf81d00399",
           "layerId": "foxglove.Urdf",
           "sourceType": "url",
-          "url": "https://raw.githubusercontent.com/WATonomous/wato_asd_training/refs/heads/main/src/gazebo/launch/env.urdf",
+          "url": "https://raw.githubusercontent.com/gurshh-rain/wato_asd_training/refs/heads/asd_foxglove_submission/src/gazebo/launch/env.urdf",
           "filePath": "",
           "parameter": "",
           "topic": "",

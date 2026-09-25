@@ -1,0 +1,27 @@
+Start testing: Sep 24 21:50 EDT
+----------------------------------------------------------
+1/1 Testing: test_dynamic_tracker
+1/1 Test: test_dynamic_tracker
+Command: "/Users/user/.local/share/mamba/envs/ros_humble/bin/python3" "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml" "--package-name" "dynamic_tracker" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/ament_cmake_gtest/test_dynamic_tracker.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml"
+Directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+"test_dynamic_tracker" start time: Sep 24 21:50 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker':
+ - /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker --gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml
+dyld[25374]: symbol not found in flat namespace '_PyExc_RuntimeError'
+-- run_test.py: return code -6
+-- run_test.py: generate result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml' with failed test
+-- run_test.py: verify result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml'
+<end of output>
+Test time =   9.17 sec
+----------------------------------------------------------
+Test Failed.
+"test_dynamic_tracker" end time: Sep 24 21:50 EDT
+"test_dynamic_tracker" time elapsed: 00:00:09
+----------------------------------------------------------
+
+End testing: Sep 24 21:50 EDT
+
+gtest =   9.17 sec*proc
+

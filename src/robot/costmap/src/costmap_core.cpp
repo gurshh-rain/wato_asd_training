@@ -30,7 +30,7 @@ nav_msgs::msg::OccupancyGrid CostmapCore::generateCostmap(
   nav_msgs::msg::OccupancyGrid grid;
 
   // Header
-  grid.header.stamp = now;
+  grid.header.stamp = scan->header.stamp;
   grid.header.frame_id = scan->header.frame_id;
 
   // Map metadata
@@ -46,34 +46,57 @@ nav_msgs::msg::OccupancyGrid CostmapCore::generateCostmap(
   grid.info.origin.orientation.z = 0.0;
   grid.info.origin.orientation.w = 1.0;
 
-  // Unknown by default
   grid.data.assign(width_ * height_, static_cast<int8_t>(-1));
-
-  // Mark obstacle cells from the LaserScan
   std::vector<std::pair<int, int>> occupied_cells;
+  int start_x = static_cast<int>((0.0 - grid.info.origin.position.x) / resolution_);
+  int start_y = static_cast<int>((0.0 - grid.info.origin.position.y) / resolution_);
+  auto clear_ray = [&](int end_x, int end_y) {
+    int x = start_x;
+    int y = start_y;
+    int dx = std::abs(end_x - start_x);
+    int sx = start_x < end_x ? 1 : -1;
+    int dy = -std::abs(end_y - start_y);
+    int sy = start_y < end_y ? 1 : -1;
+    int error = dx + dy;
+    while (true) {
+      if (x >= 0 && x < static_cast<int>(width_) &&
+          y >= 0 && y < static_cast<int>(height_)) {
+        grid.data[y * static_cast<int>(width_) + x] = 0;
+      }
+      if (x == end_x && y == end_y) {
+        break;
+      }
+      int twice_error = 2 * error;
+      if (twice_error >= dy) {
+        error += dy;
+        x += sx;
+      }
+      if (twice_error <= dx) {
+        error += dx;
+        y += sy;
+      }
+    }
+  };
   for (size_t i = 0; i < scan->ranges.size(); ++i) {
-    double range = scan->ranges[i];
-
-    // Skip invalid ranges
-    if (range < scan->range_min || range > scan->range_max ||
-        std::isnan(range) || std::isinf(range)) {
+    double measured_range = scan->ranges[i];
+    if (std::isnan(measured_range) || measured_range < scan->range_min) {
       continue;
     }
-
+    bool hit = std::isfinite(measured_range) && measured_range < scan->range_max;
+    double ray_range = hit ? measured_range : scan->range_max;
     double angle = scan->angle_min + static_cast<double>(i) * scan->angle_increment;
-    double x = range * std::cos(angle);
-    double y = range * std::sin(angle);
-
-    // Convert to grid indices
+    double x = ray_range * std::cos(angle);
+    double y = ray_range * std::sin(angle);
     int gx = static_cast<int>((x - grid.info.origin.position.x) / resolution_);
     int gy = static_cast<int>((y - grid.info.origin.position.y) / resolution_);
-
-    if (gx >= 0 && gx < static_cast<int>(width_) &&
+    clear_ray(gx, gy);
+    if (hit && gx >= 0 && gx < static_cast<int>(width_) &&
         gy >= 0 && gy < static_cast<int>(height_)) {
-      int idx = gy * static_cast<int>(width_) + gx;
-      grid.data[idx] = static_cast<int8_t>(100);
       occupied_cells.emplace_back(gx, gy);
     }
+  }
+  for (const auto& cell : occupied_cells) {
+    grid.data[cell.second * static_cast<int>(width_) + cell.first] = 100;
   }
 
   // Inflate obstacles out to the inflation radius

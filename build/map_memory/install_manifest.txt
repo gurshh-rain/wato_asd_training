@@ -1,0 +1,17 @@
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/lib/map_memory/map_memory_node
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/config/params.yaml
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/package_run_dependencies/map_memory
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/parent_prefix_path/map_memory
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.bash
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.zsh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/packages/map_memory
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig.cmake
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig-version.cmake
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.xml

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmap_memory_lib.a CMakeFiles/map_memory_lib.dir/src/map_memory_core.cpp.o
+/usr/bin/ranlib libmap_memory_lib.a

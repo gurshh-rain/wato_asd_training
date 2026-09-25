@@ -1,0 +1,63 @@
+[0.020s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/control -DCMAKE_INSTALL_PREFIX=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control
+[0.359s] -- The C compiler identification is AppleClang 21.0.0.21000334
+[0.477s] -- The CXX compiler identification is AppleClang 21.0.0.21000334
+[0.496s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.685s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.685s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.692s] -- Detecting CXX compiler ABI info
+[0.860s] -- Detecting CXX compiler ABI info - done
+[0.874s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.875s] -- Detecting CXX compile features
+[0.875s] -- Detecting CXX compile features - done
+[0.910s] -- Found ament_cmake: 1.3.14 (/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake/cmake)
+[1.076s] -- Found Python3: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 (found version "3.12.14") found components: Interpreter
+[1.379s] -- Found rclcpp: 16.0.19 (/Users/user/.local/share/mamba/envs/ros_humble/share/rclcpp/cmake)
+[1.582s] -- Found rosidl_generator_c: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_c/cmake)
+[1.607s] -- Found rosidl_adapter: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_adapter/cmake)
+[1.644s] -- Found rosidl_generator_cpp: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_cpp/cmake)
+[1.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.961s] -- Checking for module 'yaml-0.1'
+[2.098s] --   Found yaml-0.1, version 0.2.5
+[2.484s] -- Found rmw_implementation_cmake: 6.1.2 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_implementation_cmake/cmake)
+[2.500s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_cyclonedds_cpp/cmake)
+[2.590s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.632s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.770s] -- Found Threads: TRUE
+[2.883s] -- Found nav_msgs: 4.9.1 (/Users/user/.local/share/mamba/envs/ros_humble/share/nav_msgs/cmake)
+[3.052s] -- Configuring done (3.0s)
+[3.102s] -- Generating done (0.0s)
+[3.137s] -- Build files have been written to: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control
+[3.142s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/control -DCMAKE_INSTALL_PREFIX=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control
+[3.144s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control -- -j10 -l10
+[3.191s] [ 25%] Building CXX object CMakeFiles/control_lib.dir/src/control_core.cpp.o
+[4.215s] [ 50%] Linking CXX static library libcontrol_lib.a
+[4.321s] [ 50%] Built target control_lib
+[4.404s] [ 75%] Building CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o
+[6.372s] [100%] Linking CXX executable control_node
+[6.430s] [100%] Built target control_node
+[6.437s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control -- -j10 -l10
+[6.489s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control
+[6.494s] -- Install configuration: ""
+[6.494s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/lib/control/control_node
+[6.510s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/config
+[6.510s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/config/params.yaml
+[6.511s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[6.512s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[6.512s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.sh
+[6.512s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.dsv
+[6.513s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.sh
+[6.513s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.dsv
+[6.513s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.bash
+[6.513s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.sh
+[6.514s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.zsh
+[6.514s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.dsv
+[6.514s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.dsv
+[6.515s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/packages/control
+[6.515s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig.cmake
+[6.515s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig-version.cmake
+[6.515s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.xml
+[6.517s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control

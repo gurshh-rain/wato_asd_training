@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner/cmake_install.cmake",
+		"/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner/gtest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

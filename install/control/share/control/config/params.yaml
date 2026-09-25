@@ -1,0 +1,17 @@
+control_node:
+  ros__parameters:
+    lookahead_distance: 0.4
+    goal_tolerance: 0.2
+    linear_speed: 1.0
+    max_angular_speed: 1.5
+    rotate_in_place_angle: 0.4
+    angular_gain: 1.8
+    control_rate: 10.0
+    emergency_stop_distance: 1.2
+    slowdown_distance: 2.5
+    safety_half_width: 0.7
+    gate_prediction_step: 0.2
+    gate_conflict_distance: 2.0
+    gate_hold_distance: 2.5
+    gate_slowdown_distance: 6.0
+    gate_crossing_alignment: 0.65

@@ -1,0 +1,5 @@
+ld: library 'atomic' not found
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [costmap_node] Error 1
+make[1]: *** [CMakeFiles/costmap_node.dir/all] Error 2
+make: *** [all] Error 2

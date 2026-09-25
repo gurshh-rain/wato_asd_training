@@ -1,0 +1,17 @@
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/lib/moving_obstacles/moving_obstacles_node
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/config/params.yaml
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/ament_index/resource_index/package_run_dependencies/moving_obstacles
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/ament_index/resource_index/parent_prefix_path/moving_obstacles
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/ament_prefix_path.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/ament_prefix_path.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/path.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/environment/path.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.bash
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.zsh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/local_setup.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/package.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/ament_index/resource_index/packages/moving_obstacles
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/cmake/moving_obstaclesConfig.cmake
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/cmake/moving_obstaclesConfig-version.cmake
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/moving_obstacles/share/moving_obstacles/package.xml

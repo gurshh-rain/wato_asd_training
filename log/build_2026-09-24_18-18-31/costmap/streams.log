@@ -1,0 +1,9 @@
+[0.017s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap -- -j10 -l10
+[0.120s] [ 50%] Built target costmap_lib
+[0.157s] [ 75%] Linking CXX executable costmap_node
+[0.285s] ld: library 'atomic' not found
+[0.289s] clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[0.293s] make[2]: *** [costmap_node] Error 1
+[0.294s] make[1]: *** [CMakeFiles/costmap_node.dir/all] Error 2
+[0.294s] make: *** [all] Error 2
+[0.295s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap' returned '2': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap -- -j10 -l10

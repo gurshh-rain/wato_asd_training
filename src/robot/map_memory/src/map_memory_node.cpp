@@ -16,6 +16,8 @@ MapMemoryNode::MapMemoryNode()
         this->declare_parameter<std::string>("frame_id", "sim_world"),
         this->declare_parameter<double>("distance_threshold", 0.25)))
 {
+  tf_buffer_ = std::make_shared<tf2_ros::Buffer>(get_clock());
+  tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
   costmap_sub_ = this->create_subscription<nav_msgs::msg::OccupancyGrid>(
       "/costmap",
       10,
@@ -34,7 +36,7 @@ MapMemoryNode::MapMemoryNode()
 
 void MapMemoryNode::costmapCallback(nav_msgs::msg::OccupancyGrid::ConstSharedPtr msg)
 {
-  map_memory_.updateCostmap(msg);
+  pending_costmap_ = msg;
 }
 
 void MapMemoryNode::odomCallback(nav_msgs::msg::Odometry::ConstSharedPtr msg)
@@ -44,6 +46,20 @@ void MapMemoryNode::odomCallback(nav_msgs::msg::Odometry::ConstSharedPtr msg)
 
 void MapMemoryNode::timerCallback()
 {
+  if (pending_costmap_) {
+    try {
+      auto transform = tf_buffer_->lookupTransform(get_parameter("frame_id").as_string(),
+          pending_costmap_->header.frame_id, rclcpp::Time(pending_costmap_->header.stamp));
+      auto pose = std::make_shared<nav_msgs::msg::Odometry>();
+      pose->pose.pose.position.x = transform.transform.translation.x;
+      pose->pose.pose.position.y = transform.transform.translation.y;
+      pose->pose.pose.orientation = transform.transform.rotation;
+      map_memory_.updateOdom(pose);
+      map_memory_.updateCostmap(pending_costmap_);
+      pending_costmap_.reset();
+    } catch (const tf2::TransformException&) {
+    }
+  }
   map_pub_->publish(map_memory_.generateMap(this->now()));
 }
 

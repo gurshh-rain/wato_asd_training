@@ -10,7 +10,7 @@ CostmapNode::CostmapNode()
         this->get_logger(),
         this->declare_parameter<double>("resolution", 0.1),
         this->declare_parameter<double>("grid_size", 20.0),
-        this->declare_parameter<double>("inflation_radius", 1.0),
+        this->declare_parameter<double>("inflation_radius", 0.75),
         this->declare_parameter<int>("max_cost", 100)))
 {
   laser_sub_ = this->create_subscription<sensor_msgs::msg::LaserScan>(

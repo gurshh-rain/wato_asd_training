@@ -13,6 +13,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
 
 if(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
   foreach(_target rclcpp::rclcpp rcutils::rcutils)
@@ -36,7 +37,7 @@ ament_target_dependencies(map_memory_lib
 add_executable(map_memory_node src/map_memory_node.cpp)
 target_link_libraries(map_memory_node map_memory_lib)
 ament_target_dependencies(map_memory_node
-  rclcpp nav_msgs geometry_msgs)
+  rclcpp nav_msgs geometry_msgs tf2_ros)
 
 install(TARGETS
   map_memory_node
@@ -45,5 +46,12 @@ install(TARGETS
 install(DIRECTORY
   config
   DESTINATION share/${PROJECT_NAME})
+
+if(BUILD_TESTING)
+  find_package(ament_cmake_gtest REQUIRED)
+  ament_add_gtest(test_map_memory test/test_map_memory.cpp)
+  target_link_libraries(test_map_memory map_memory_lib)
+  ament_target_dependencies(test_map_memory rclcpp nav_msgs geometry_msgs)
+endif()
 
 ament_package()

@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000041] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.000067] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.000105] (-) JobUnselected: {'identifier': 'bringup_robot'}
+[0.000124] (-) JobUnselected: {'identifier': 'control'}
+[0.000129] (-) JobUnselected: {'identifier': 'gazebo'}
+[0.000164] (-) JobUnselected: {'identifier': 'map_memory'}
+[0.000169] (-) JobUnselected: {'identifier': 'odometry_spoof'}
+[0.000193] (-) JobUnselected: {'identifier': 'planner'}
+[0.000215] (-) JobUnselected: {'identifier': 'producer'}
+[0.000249] (-) JobUnselected: {'identifier': 'producer'}
+[0.000264] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.000277] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.000294] (-) JobUnselected: {'identifier': 'transformer'}
+[0.000303] (-) JobUnselected: {'identifier': 'transformer'}
+[0.000309] (costmap) JobQueued: {'identifier': 'costmap', 'dependencies': OrderedDict()}
+[0.000314] (costmap) JobStarted: {'identifier': 'costmap'}
+[0.011450] (costmap) JobProgress: {'identifier': 'costmap', 'progress': 'cmake'}
+[0.012543] (costmap) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/costmap', '-DCMAKE_INSTALL_PREFIX=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap'], 'cwd': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap', 'env': OrderedDict({'OGRE2_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE-Next', 'GDAL_DRIVER_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gdalplugins', 'TERM_PROGRAM': 'vscode', 'PROJ_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/proj', 'GEM_HOME': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/', 'CONDA_SHLVL': '2', 'GAZEBO_MODEL_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11/models:', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'TERM_PROGRAM_VERSION': '1.126.0', 'CONDA_PROMPT_MODIFIER': '(ros_humble)', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'ROS_PYTHON_VERSION': '3', 'ZDOTDIR': '/Users/user', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble', '_CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'USER': 'user', 'LD_LIBRARY_PATH': ':/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'SSH_AUTH_SOCK': '/var/run/com.apple.launchd.yDVDxWvlvS/Listeners', 'VSCODE_PROFILE_INITIALIZED': '1', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x52', 'ROS_OS_OVERRIDE': 'conda:osx', 'MAMBA_EXE': '/Users/user/miniforge3/condabin/mamba', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/user/miniforge3', 'CPL_ZIP_ENCODING': 'UTF-8', 'GAZEBO_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11:', 'PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/bin:/Users/user/.codeium/windsurf/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/user/.local/share/mamba/envs/ros_humble/bin:/Users/user/miniforge3/condabin:/Users/user/.codeium/windsurf/bin:/Users/user/.docker/bin:/Users/user/.devin/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/.local/share/mamba/envs/ros_humble/etc/xml/catalog file:///etc/xml/catalog', 'IGN_RENDERING_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/ignition/ignition-rendering6', 'USER_ZDOTDIR': '/Users/user', 'CONDA_PREFIX': '/Users/user/.local/share/mamba/envs/ros_humble', '__CFBundleIdentifier': 'com.exafunction.windsurf', 'PWD': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap', 'COLCON': '1', 'OGRE_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE', 'MAMBA_ROOT_PREFIX': '/Users/user/.local/share/mamba', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/Users/user/Library/Application Support/Devin/User/workspaceStorage/30ed3c129af863e2d7830fadea69c0e3/ms-python.python/pythonrc.py', 'BUNDLED_DEBUGPY_PATH': '/Users/user/.devin/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/libs/debugpy', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'XPC_FLAGS': '0x0', 'GDAL_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/gdal', '_CONDA_ROOT': '/Users/user/miniforge3', '_CE_M': '', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/Users/user/.devin/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-a6b7a9a722b9fac4.txt', 'SHLVL': '2', 'HOME': '/Users/user', 'ROS_DISTRO': 'humble', 'VSCODE_GIT_ASKPASS_MAIN': '/Applications/Devin.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'PYTHON_BASIC_REPL': '1', 'HOMEBREW_PREFIX': '/opt/homebrew', 'GAZEBO_PLUGIN_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'PYTHONPATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/python312/site-packages:/Users/user/.local/share/mamba/envs/ros_humble/lib/python3.12/site-packages', 'CONDA_PYTHON_EXE': '/Users/user/miniforge3/bin/python', 'LOGNAME': 'user', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/vscode-git-401662aeb7.sock', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'CONDA_DEFAULT_ENV': 'ros_humble', 'VSCODE_GIT_ASKPASS_NODE': '/Applications/Devin.app/Contents/Frameworks/Devin Helper (Plugin).app/Contents/MacOS/Devin Helper (Plugin)', 'GIT_ASKPASS': '/Applications/Devin.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'ROS_LOCALHOST_ONLY': '0', 'OSLogRateLimit': '64', 'ROS_ETC_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/etc/ros', 'COLORTERM': 'truecolor', '_': '/usr/bin/env', 'CMAKE_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble'}), 'shell': False}
+[0.104951] (-) TimerEvent: {}
+[0.206155] (-) TimerEvent: {}
+[0.281156] (costmap) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 21.0.0.21000334\n'}
+[0.311188] (-) TimerEvent: {}
+[0.346662] (costmap) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 21.0.0.21000334\n'}
+[0.363409] (costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.413742] (-) TimerEvent: {}
+[0.464058] (costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.474685] (costmap) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.474991] (costmap) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.475292] (costmap) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.479904] (costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.516845] (-) TimerEvent: {}
+[0.577779] (costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.586659] (costmap) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.586827] (costmap) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.587095] (costmap) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.614385] (costmap) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake/cmake)\n'}
+[0.617449] (-) TimerEvent: {}
+[0.715366] (costmap) StdoutLine: {'line': b'-- Found Python3: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 (found version "3.12.14") found components: Interpreter\n'}
+[0.717957] (-) TimerEvent: {}
+[0.822993] (-) TimerEvent: {}
+[0.877819] (costmap) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/Users/user/.local/share/mamba/envs/ros_humble/share/rclcpp/cmake)\n'}
+[0.928006] (-) TimerEvent: {}
+[0.996101] (costmap) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_c/cmake)\n'}
+[1.013567] (costmap) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_adapter/cmake)\n'}
+[1.031614] (-) TimerEvent: {}
+[1.037588] (costmap) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.066327] (costmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.103363] (costmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.134583] (-) TimerEvent: {}
+[1.239004] (costmap) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[1.239091] (-) TimerEvent: {}
+[1.320963] (costmap) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[1.343364] (-) TimerEvent: {}
+[1.445723] (-) TimerEvent: {}
+[1.548317] (costmap) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.548408] (-) TimerEvent: {}
+[1.557248] (costmap) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.615683] (costmap) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.639927] (costmap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.650531] (-) TimerEvent: {}
+[1.743800] (costmap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.744221] (costmap) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.752103] (-) TimerEvent: {}
+[1.822214] (costmap) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/Users/user/.local/share/mamba/envs/ros_humble/share/sensor_msgs/cmake)\n'}
+[1.856609] (-) TimerEvent: {}
+[1.905185] (costmap) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/Users/user/.local/share/mamba/envs/ros_humble/share/nav_msgs/cmake)\n'}
+[1.961628] (-) TimerEvent: {}
+[1.970531] (costmap) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[2.004865] (costmap) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.033708] (costmap) StdoutLine: {'line': b'-- Build files have been written to: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap\n'}
+[2.036075] (costmap) CommandEnded: {'returncode': 0}
+[2.036357] (costmap) JobProgress: {'identifier': 'costmap', 'progress': 'build'}
+[2.036654] (costmap) Command: {'cmd': ['/opt/homebrew/bin/cmake', '--build', '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap', '--', '-j10', '-l10'], 'cwd': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap', 'env': OrderedDict({'OGRE2_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE-Next', 'GDAL_DRIVER_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gdalplugins', 'TERM_PROGRAM': 'vscode', 'PROJ_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/proj', 'GEM_HOME': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/', 'CONDA_SHLVL': '2', 'GAZEBO_MODEL_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11/models:', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'TERM_PROGRAM_VERSION': '1.126.0', 'CONDA_PROMPT_MODIFIER': '(ros_humble)', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'ROS_PYTHON_VERSION': '3', 'ZDOTDIR': '/Users/user', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble', '_CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'USER': 'user', 'LD_LIBRARY_PATH': ':/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'SSH_AUTH_SOCK': '/var/run/com.apple.launchd.yDVDxWvlvS/Listeners', 'VSCODE_PROFILE_INITIALIZED': '1', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x52', 'ROS_OS_OVERRIDE': 'conda:osx', 'MAMBA_EXE': '/Users/user/miniforge3/condabin/mamba', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/user/miniforge3', 'CPL_ZIP_ENCODING': 'UTF-8', 'GAZEBO_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11:', 'PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/bin:/Users/user/.codeium/windsurf/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/user/.local/share/mamba/envs/ros_humble/bin:/Users/user/miniforge3/condabin:/Users/user/.codeium/windsurf/bin:/Users/user/.docker/bin:/Users/user/.devin/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/.local/share/mamba/envs/ros_humble/etc/xml/catalog file:///etc/xml/catalog', 'IGN_RENDERING_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/ignition/ignition-rendering6', 'USER_ZDOTDIR': '/Users/user', 'CONDA_PREFIX': '/Users/user/.local/share/mamba/envs/ros_humble', '__CFBundleIdentifier': 'com.exafunction.windsurf', 'PWD': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap', 'COLCON': '1', 'OGRE_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE', 'MAMBA_ROOT_PREFIX': '/Users/user/.local/share/mamba', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/Users/user/Library/Application Support/Devin/User/workspaceStorage/30ed3c129af863e2d7830fadea69c0e3/ms-python.python/pythonrc.py', 'BUNDLED_DEBUGPY_PATH': '/Users/user/.devin/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/libs/debugpy', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'XPC_FLAGS': '0x0', 'GDAL_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/gdal', '_CONDA_ROOT': '/Users/user/miniforge3', '_CE_M': '', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/Users/user/.devin/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-a6b7a9a722b9fac4.txt', 'SHLVL': '2', 'HOME': '/Users/user', 'ROS_DISTRO': 'humble', 'VSCODE_GIT_ASKPASS_MAIN': '/Applications/Devin.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'PYTHON_BASIC_REPL': '1', 'HOMEBREW_PREFIX': '/opt/homebrew', 'GAZEBO_PLUGIN_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'PYTHONPATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/python312/site-packages:/Users/user/.local/share/mamba/envs/ros_humble/lib/python3.12/site-packages', 'CONDA_PYTHON_EXE': '/Users/user/miniforge3/bin/python', 'LOGNAME': 'user', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/vscode-git-401662aeb7.sock', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'CONDA_DEFAULT_ENV': 'ros_humble', 'VSCODE_GIT_ASKPASS_NODE': '/Applications/Devin.app/Contents/Frameworks/Devin Helper (Plugin).app/Contents/MacOS/Devin Helper (Plugin)', 'GIT_ASKPASS': '/Applications/Devin.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'ROS_LOCALHOST_ONLY': '0', 'OSLogRateLimit': '64', 'ROS_ETC_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/etc/ros', 'COLORTERM': 'truecolor', '_': '/usr/bin/env', 'CMAKE_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble'}), 'shell': False}
+[2.063699] (-) TimerEvent: {}
+[2.075178] (costmap) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o\n'}
+[2.168729] (-) TimerEvent: {}
+[2.272301] (-) TimerEvent: {}
+[2.377382] (-) TimerEvent: {}
+[2.482453] (-) TimerEvent: {}
+[2.587543] (-) TimerEvent: {}
+[2.692626] (-) TimerEvent: {}
+[2.792876] (-) TimerEvent: {}
+[2.897966] (-) TimerEvent: {}
+[2.938112] (costmap) StdoutLine: {'line': b'[ 50%] Linking CXX static library libcostmap_lib.a\n'}
+[2.972948] (costmap) StdoutLine: {'line': b'[ 50%] Built target costmap_lib\n'}
+[2.994085] (costmap) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/costmap_node.dir/src/costmap_node.cpp.o\n'}
+[2.998927] (-) TimerEvent: {}
+[3.103987] (-) TimerEvent: {}
+[3.207263] (-) TimerEvent: {}
+[3.309584] (-) TimerEvent: {}
+[3.411735] (-) TimerEvent: {}
+[3.512863] (-) TimerEvent: {}
+[3.617937] (-) TimerEvent: {}
+[3.723008] (-) TimerEvent: {}
+[3.828080] (-) TimerEvent: {}
+[3.930147] (-) TimerEvent: {}
+[4.030582] (-) TimerEvent: {}
+[4.130752] (-) TimerEvent: {}
+[4.234535] (-) TimerEvent: {}
+[4.338997] (-) TimerEvent: {}
+[4.442638] (-) TimerEvent: {}
+[4.462374] (costmap) StdoutLine: {'line': b'[100%] Linking CXX executable costmap_node\n'}
+[4.480891] (costmap) StderrLine: {'line': b"ld: library 'atomic' not found\n"}
+[4.481419] (costmap) StderrLine: {'line': b'clang++: error: linker command failed with exit code 1 (use -v to see invocation)\n'}
+[4.482408] (costmap) StderrLine: {'line': b'make[2]: *** [costmap_node] Error 1\n'}
+[4.482573] (costmap) StderrLine: {'line': b'make[1]: *** [CMakeFiles/costmap_node.dir/all] Error 2\n'}
+[4.482774] (costmap) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[4.483831] (costmap) CommandEnded: {'returncode': 2}
+[4.490464] (costmap) JobEnded: {'identifier': 'costmap', 'rc': 2}
+[4.490899] (-) EventReactorShutdown: {}

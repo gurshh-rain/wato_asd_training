@@ -1,0 +1,57 @@
+-- The C compiler identification is AppleClang 21.0.0.21000334
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake/cmake)
+-- Found Python3: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 (found version "3.12.14") found components: Interpreter
+-- Found rclcpp: 16.0.19 (/Users/user/.local/share/mamba/envs/ros_humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found rmw_implementation_cmake: 6.1.2 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found nav_msgs: 4.9.1 (/Users/user/.local/share/mamba/envs/ros_humble/share/nav_msgs/cmake)
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control
+[ 25%] Building CXX object CMakeFiles/control_lib.dir/src/control_core.cpp.o
+[ 50%] Linking CXX static library libcontrol_lib.a
+[ 50%] Built target control_lib
+[ 75%] Building CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o
+[100%] Linking CXX executable control_node
+[100%] Built target control_node
+-- Install configuration: ""
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/lib/control/control_node
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/config
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/config/params.yaml
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.bash
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.zsh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/packages/control
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig.cmake
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig-version.cmake
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.xml

@@ -68,7 +68,7 @@ nav_msgs::msg::OccupancyGrid MapMemoryCore::generateMap(const rclcpp::Time& now)
 {
   global_map_.header.stamp = now;
   global_map_.header.frame_id = frame_id_;
-  if (should_update_ && costmap_updated_ && latest_costmap_ && latest_odom_) {
+  if (costmap_updated_ && latest_costmap_ && latest_odom_) {
     double robot_x = latest_odom_->pose.pose.position.x;
     double robot_y = latest_odom_->pose.pose.position.y;
     double yaw = yawFromQuaternion(latest_odom_->pose.pose.orientation);
@@ -76,29 +76,25 @@ nav_msgs::msg::OccupancyGrid MapMemoryCore::generateMap(const rclcpp::Time& now)
     double c_res = latest_costmap_->info.resolution;
     double c_origin_x = latest_costmap_->info.origin.position.x;
     double c_origin_y = latest_costmap_->info.origin.position.y;
-    for (unsigned int j = 0; j < latest_costmap_->info.height; ++j) {
-      for (unsigned int i = 0; i < costmap_width; ++i) {
-        int8_t value = latest_costmap_->data[j * costmap_width + i];
-        if (value < 0) {
+    if (c_res <= 0.0 || latest_costmap_->data.size() !=
+        static_cast<std::size_t>(costmap_width) * latest_costmap_->info.height) {
+      return global_map_;
+    }
+    double cosine = std::cos(yaw);
+    double sine = std::sin(yaw);
+    for (unsigned int y = 0; y < height_; ++y) {
+      for (unsigned int x = 0; x < width_; ++x) {
+        double dx = origin_x_ + (x + 0.5) * resolution_ - robot_x;
+        double dy = origin_y_ + (y + 0.5) * resolution_ - robot_y;
+        int cx = static_cast<int>(std::floor((cosine * dx + sine * dy - c_origin_x) / c_res));
+        int cy = static_cast<int>(std::floor((-sine * dx + cosine * dy - c_origin_y) / c_res));
+        if (cx < 0 || cy < 0 || cx >= static_cast<int>(costmap_width) ||
+            cy >= static_cast<int>(latest_costmap_->info.height)) {
           continue;
         }
-        double cx = c_origin_x + (static_cast<double>(i) + 0.5) * c_res;
-        double cy = c_origin_y + (static_cast<double>(j) + 0.5) * c_res;
-        double mx = robot_x + cx * std::cos(yaw) - cy * std::sin(yaw);
-        double my = robot_y + cx * std::sin(yaw) + cy * std::cos(yaw);
-        int base_mx = static_cast<int>((mx - origin_x_) / resolution_);
-        int base_my = static_cast<int>((my - origin_y_) / resolution_);
-        for (int dy = -1; dy <= 1; ++dy) {
-          for (int dx = -1; dx <= 1; ++dx) {
-            int mx_i = base_mx + dx;
-            int my_i = base_my + dy;
-            if (mx_i < 0 || mx_i >= static_cast<int>(width_) ||
-                my_i < 0 || my_i >= static_cast<int>(height_)) {
-              continue;
-            }
-            global_map_.data[static_cast<unsigned int>(my_i) * width_ +
-                             static_cast<unsigned int>(mx_i)] = value;
-          }
+        int8_t value = latest_costmap_->data[static_cast<std::size_t>(cy) * costmap_width + cx];
+        if (value >= 0) {
+          global_map_.data[static_cast<std::size_t>(y) * width_ + x] = value;
         }
       }
     }

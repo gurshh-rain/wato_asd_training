@@ -11,6 +11,8 @@ COPY src/robot/costmap costmap
 COPY src/robot/map_memory map_memory
 COPY src/robot/planner planner
 COPY src/robot/control control
+COPY src/robot/dynamic_tracker dynamic_tracker
+COPY src/robot/moving_obstacles moving_obstacles
 COPY src/robot/bringup_robot bringup_robot
 
 # Scan for rosdeps
@@ -45,7 +47,9 @@ FROM dependencies AS build
 WORKDIR ${AMENT_WS}
 RUN . /opt/ros/$ROS_DISTRO/setup.sh && \
     colcon build \
-        --cmake-args -DCMAKE_BUILD_TYPE=Release --install-base ${WATONOMOUS_INSTALL}
+        --cmake-args -DCMAKE_BUILD_TYPE=Release --install-base ${WATONOMOUS_INSTALL} && \
+    colcon test --packages-select control dynamic_tracker planner map_memory --install-base ${WATONOMOUS_INSTALL} --event-handlers console_direct+ && \
+    colcon test-result --verbose
 
 # Source and Build Artifact Cleanup 
 RUN rm -rf src/* build/* devel/* install/* log/*

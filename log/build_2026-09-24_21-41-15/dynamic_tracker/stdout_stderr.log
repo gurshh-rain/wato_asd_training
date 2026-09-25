@@ -1,0 +1,21 @@
+[ 50%] Built target dynamic_tracker_lib
+[100%] Built target dynamic_tracker_node
+-- Install configuration: ""
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/lib/dynamic_tracker/dynamic_tracker_node
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/config
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/config/params.yaml
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/ament_index/resource_index/package_run_dependencies/dynamic_tracker
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/ament_index/resource_index/parent_prefix_path/dynamic_tracker
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/ament_prefix_path.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/ament_prefix_path.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/path.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/path.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.bash
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.sh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.zsh
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/package.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/ament_index/resource_index/packages/dynamic_tracker
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/cmake/dynamic_trackerConfig.cmake
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/cmake/dynamic_trackerConfig-version.cmake
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/package.xml

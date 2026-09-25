@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/control
+# Build directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(test_control_core "/Users/user/.local/share/mamba/envs/ros_humble/bin/python3" "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control/test_results/control/test_control_core.gtest.xml" "--package-name" "control" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control/ament_cmake_gtest/test_control_core.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control/test_control_core" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control/test_results/control/test_control_core.gtest.xml")
+set_tests_properties(test_control_core PROPERTIES  LABELS "gtest" REQUIRED_FILES "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control/test_control_core" TIMEOUT "60" WORKING_DIRECTORY "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/control" _BACKTRACE_TRIPLES "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/control/CMakeLists.txt;45;ament_add_gtest;/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/control/CMakeLists.txt;0;")
+subdirs("gtest")

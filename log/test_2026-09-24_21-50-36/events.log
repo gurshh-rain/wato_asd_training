@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000061] (dynamic_tracker) JobQueued: {'identifier': 'dynamic_tracker', 'dependencies': OrderedDict({'dynamic_tracker': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker'})}
+[0.000139] (dynamic_tracker) JobStarted: {'identifier': 'dynamic_tracker'}
+[0.100177] (-) TimerEvent: {}
+[0.144504] (dynamic_tracker) Command: {'cmd': ['/opt/homebrew/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker', 'env': OrderedDict({'OGRE2_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE-Next', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'GDAL_DRIVER_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gdalplugins', 'PROJ_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/proj', 'GEM_HOME': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/', 'CONDA_SHLVL': '2', 'CONDA_PROMPT_MODIFIER': '(ros_humble)', 'GAZEBO_MODEL_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11/models:', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'MallocNanoZone': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'WINDSURF_IDE_TYPE': 'windsurf', 'AMENT_PREFIX_PATH': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker:/Users/user/.local/share/mamba/envs/ros_humble', 'GIT_TERMINAL_PROMPT': '0', 'USER': 'user', '_CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'LD_LIBRARY_PATH': ':/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'WINDSURF_EXT_HOST_PID': '1559', 'SSH_AUTH_SOCK': '/var/run/com.apple.launchd.yDVDxWvlvS/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x52', 'ROS_OS_OVERRIDE': 'conda:osx', 'MAMBA_EXE': '/Users/user/miniforge3/condabin/mamba', 'ELECTRON_RUN_AS_NODE': '1', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/user/miniforge3', 'ACP_BACKEND': 'windsurf', 'PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/bin:/Users/user/.codeium/windsurf/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/user/.local/share/mamba/envs/ros_humble/bin:/Users/user/miniforge3/condabin:/Users/user/.codeium/windsurf/bin:/Users/user/.docker/bin', 'GAZEBO_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11:', 'CPL_ZIP_ENCODING': 'UTF-8', 'GSETTINGS_SCHEMA_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/share/glib-2.0/schemas', 'PROJ_NETWORK': 'ON', 'XML_CATALOG_FILES': 'file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/.local/share/mamba/envs/ros_humble/etc/xml/catalog file:///etc/xml/catalog', 'CONDA_PREFIX': '/Users/user/.local/share/mamba/envs/ros_humble', '__CFBundleIdentifier': 'com.exafunction.windsurf', 'IGN_RENDERING_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/ignition/ignition-rendering6', 'PWD': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker', 'COLCON': '1', 'MAMBA_ROOT_PREFIX': '/Users/user/.local/share/mamba', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'OGRE_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANG': 'C.UTF-8', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'XPC_FLAGS': '0x0', 'MACH_PORT_RENDEZVOUS_PEER_VALDATION': '1', 'GDAL_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/gdal', 'XPC_SERVICE_NAME': '0', '_CE_M': '', '_CONDA_ROOT': '/Users/user/miniforge3', 'HOME': '/Users/user', 'SHLVL': '2', 'ROS_DISTRO': 'humble', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-ca","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Devin.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'HOMEBREW_PREFIX': '/opt/homebrew', 'GAZEBO_PLUGIN_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'CONDA_PYTHON_EXE': '/Users/user/miniforge3/bin/python', 'LOGNAME': 'user', 'PYTHONPATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/python312/site-packages:/Users/user/.local/share/mamba/envs/ros_humble/lib/python3.12/site-packages', 'VSCODE_CODE_CACHE_PATH': '/Users/user/Library/Application Support/Devin/CachedData/deb816008be02bf5f9da707b7def3ebdb53a51cd', 'VSCODE_IPC_HOOK': '/Users/user/Library/Application Support/Devin/1.12-main.sock', 'CONDA_DEFAULT_ENV': 'ros_humble', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'VSCODE_PID': '71141', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'CMAKE_PREFIX_PATH': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker', 'OSLogRateLimit': '64', 'ROS_LOCALHOST_ONLY': '0', 'VSCODE_CWD': '/', 'ROS_ETC_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/etc/ros', '_': '/usr/bin/env'}), 'shell': False}
+[0.149253] (dynamic_tracker) StdoutLine: {'line': b'SetCTestConfiguration:BuildDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker\n'}
+[0.149420] (dynamic_tracker) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini\n'}
+[0.149461] (dynamic_tracker) StdoutLine: {'line': b'Parse Config file:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini\n'}
+[0.149490] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_SITE:Gurshaans-MacBook-Pro.local\n'}
+[0.149516] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker\n'}
+[0.149540] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_BINARY_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker\n'}
+[0.149565] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/opt/homebrew/bin/cmake" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker"\n'}
+[0.149591] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_TEST_TIMEOUT:10000000\n'}
+[0.149792] (dynamic_tracker) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini\n'}
+[0.149902] (dynamic_tracker) StdoutLine: {'line': b'Parse Config file:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/CTestConfiguration.ini\n'}
+[0.150012] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_SITE:Gurshaans-MacBook-Pro.local\n'}
+[0.150226] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker\n'}
+[0.150277] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_BINARY_DIRECTORY:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker\n'}
+[0.150394] (dynamic_tracker) StdoutLine: {'line': b'SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/opt/homebrew/bin/cmake" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker"\n'}
+[0.150491] (dynamic_tracker) StdoutLine: {'line': b'SetCTestConfiguration:BuildDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker\n'}
+[0.150601] (dynamic_tracker) StdoutLine: {'line': b'SetCTestConfiguration:SourceDirectory:/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/dynamic_tracker\n'}
+[0.150706] (dynamic_tracker) StdoutLine: {'line': b'Test project /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker\n'}
+[0.150738] (dynamic_tracker) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.150765] (dynamic_tracker) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.150883] (dynamic_tracker) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.150922] (dynamic_tracker) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.150983] (dynamic_tracker) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.151016] (dynamic_tracker) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.151040] (dynamic_tracker) StdoutLine: {'line': b'test 1\n'}
+[0.151066] (dynamic_tracker) StdoutLine: {'line': b'    Start 1: test_dynamic_tracker\n'}
+[0.151094] (dynamic_tracker) StdoutLine: {'line': b'\n'}
+[0.151121] (dynamic_tracker) StdoutLine: {'line': b'1: Test command: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 "-u" "/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake_test/cmake/run_test.py" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml" "--package-name" "dynamic_tracker" "--output-file" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/ament_cmake_gtest/test_dynamic_tracker.txt" "--command" "/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker" "--gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml"\n'}
+[0.151178] (dynamic_tracker) StdoutLine: {'line': b'1: Working Directory: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker\n'}
+[0.151210] (dynamic_tracker) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.201067] (-) TimerEvent: {}
+[0.219316] (dynamic_tracker) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker':\n"}
+[0.219579] (dynamic_tracker) StdoutLine: {'line': b'1:  - /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_dynamic_tracker --gtest_output=xml:/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml\n'}
+[0.301547] (-) TimerEvent: {}
+[0.404624] (-) TimerEvent: {}
+[0.509604] (-) TimerEvent: {}
+[0.610212] (-) TimerEvent: {}
+[0.712041] (-) TimerEvent: {}
+[0.814290] (-) TimerEvent: {}
+[0.916941] (-) TimerEvent: {}
+[1.019212] (-) TimerEvent: {}
+[1.119458] (-) TimerEvent: {}
+[1.220090] (-) TimerEvent: {}
+[1.324083] (-) TimerEvent: {}
+[1.425233] (-) TimerEvent: {}
+[1.527508] (-) TimerEvent: {}
+[1.628210] (-) TimerEvent: {}
+[1.729111] (-) TimerEvent: {}
+[1.829367] (-) TimerEvent: {}
+[1.934091] (-) TimerEvent: {}
+[2.036168] (-) TimerEvent: {}
+[2.137260] (-) TimerEvent: {}
+[2.241081] (-) TimerEvent: {}
+[2.342136] (-) TimerEvent: {}
+[2.443573] (-) TimerEvent: {}
+[2.544378] (-) TimerEvent: {}
+[2.644644] (-) TimerEvent: {}
+[2.747267] (-) TimerEvent: {}
+[2.848870] (-) TimerEvent: {}
+[2.949444] (-) TimerEvent: {}
+[3.049769] (-) TimerEvent: {}
+[3.154782] (-) TimerEvent: {}
+[3.255216] (-) TimerEvent: {}
+[3.359616] (-) TimerEvent: {}
+[3.463305] (-) TimerEvent: {}
+[3.565270] (-) TimerEvent: {}
+[3.666280] (-) TimerEvent: {}
+[3.770767] (-) TimerEvent: {}
+[3.873498] (-) TimerEvent: {}
+[3.976198] (-) TimerEvent: {}
+[4.079097] (-) TimerEvent: {}
+[4.186544] (-) TimerEvent: {}
+[4.287125] (-) TimerEvent: {}
+[4.388215] (-) TimerEvent: {}
+[4.490089] (-) TimerEvent: {}
+[4.592079] (-) TimerEvent: {}
+[4.696249] (-) TimerEvent: {}
+[4.799318] (-) TimerEvent: {}
+[4.899894] (-) TimerEvent: {}
+[5.004415] (-) TimerEvent: {}
+[5.105138] (-) TimerEvent: {}
+[5.205267] (-) TimerEvent: {}
+[5.306258] (-) TimerEvent: {}
+[5.407281] (-) TimerEvent: {}
+[5.511626] (-) TimerEvent: {}
+[5.614114] (-) TimerEvent: {}
+[5.719055] (-) TimerEvent: {}
+[5.821968] (-) TimerEvent: {}
+[5.923812] (-) TimerEvent: {}
+[6.024155] (-) TimerEvent: {}
+[6.125116] (-) TimerEvent: {}
+[6.230260] (-) TimerEvent: {}
+[6.330809] (-) TimerEvent: {}
+[6.434088] (-) TimerEvent: {}
+[6.534275] (-) TimerEvent: {}
+[6.635081] (-) TimerEvent: {}
+[6.738166] (-) TimerEvent: {}
+[6.838774] (-) TimerEvent: {}
+[6.942278] (-) TimerEvent: {}
+[7.045349] (-) TimerEvent: {}
+[7.148413] (-) TimerEvent: {}
+[7.252105] (-) TimerEvent: {}
+[7.354103] (-) TimerEvent: {}
+[7.459213] (-) TimerEvent: {}
+[7.563093] (-) TimerEvent: {}
+[7.664150] (-) TimerEvent: {}
+[7.765107] (-) TimerEvent: {}
+[7.866099] (-) TimerEvent: {}
+[7.967108] (-) TimerEvent: {}
+[8.072232] (-) TimerEvent: {}
+[8.173985] (-) TimerEvent: {}
+[8.275323] (-) TimerEvent: {}
+[8.380094] (-) TimerEvent: {}
+[8.484149] (-) TimerEvent: {}
+[8.588956] (-) TimerEvent: {}
+[8.689099] (-) TimerEvent: {}
+[8.790104] (-) TimerEvent: {}
+[8.893720] (-) TimerEvent: {}
+[8.996118] (-) TimerEvent: {}
+[9.100225] (-) TimerEvent: {}
+[9.201094] (-) TimerEvent: {}
+[9.302593] (dynamic_tracker) StdoutLine: {'line': b"1: dyld[25374]: symbol not found in flat namespace '_PyExc_RuntimeError'\n"}
+[9.302989] (-) TimerEvent: {}
+[9.313518] (dynamic_tracker) StdoutLine: {'line': b'1: -- run_test.py: return code -6\n'}
+[9.313978] (dynamic_tracker) StdoutLine: {'line': b"1: -- run_test.py: generate result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml' with failed test\n"}
+[9.314454] (dynamic_tracker) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker/test_results/dynamic_tracker/test_dynamic_tracker.gtest.xml'\n"}
+[9.323304] (dynamic_tracker) StdoutLine: {'line': b'1/1 Test #1: test_dynamic_tracker .............***Failed    9.17 sec\n'}
+[9.324054] (dynamic_tracker) StdoutLine: {'line': b'\n'}
+[9.324148] (dynamic_tracker) StdoutLine: {'line': b'0% tests passed, 1 tests failed out of 1\n'}
+[9.324288] (dynamic_tracker) StdoutLine: {'line': b'\n'}
+[9.324408] (dynamic_tracker) StdoutLine: {'line': b'Label Time Summary:\n'}
+[9.324474] (dynamic_tracker) StdoutLine: {'line': b'gtest    =   9.17 sec*proc (1 test)\n'}
+[9.324538] (dynamic_tracker) StdoutLine: {'line': b'\n'}
+[9.324598] (dynamic_tracker) StdoutLine: {'line': b'Total Test time (real) =   9.17 sec\n'}
+[9.324658] (dynamic_tracker) StdoutLine: {'line': b'\n'}
+[9.325081] (dynamic_tracker) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[9.325183] (dynamic_tracker) StdoutLine: {'line': b'\t  1 - test_dynamic_tracker (Failed)                     gtest\n'}
+[9.358526] (dynamic_tracker) CommandEnded: {'returncode': 8}
+[9.359370] (dynamic_tracker) TestFailure: {'identifier': 'dynamic_tracker'}
+[9.359454] (dynamic_tracker) JobEnded: {'identifier': 'dynamic_tracker', 'rc': 0}
+[9.360241] (-) EventReactorShutdown: {}

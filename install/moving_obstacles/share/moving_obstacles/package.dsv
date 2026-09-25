@@ -1,0 +1,8 @@
+source;share/moving_obstacles/hook/cmake_prefix_path.ps1
+source;share/moving_obstacles/hook/cmake_prefix_path.dsv
+source;share/moving_obstacles/hook/cmake_prefix_path.sh
+source;share/moving_obstacles/local_setup.bash
+source;share/moving_obstacles/local_setup.dsv
+source;share/moving_obstacles/local_setup.ps1
+source;share/moving_obstacles/local_setup.sh
+source;share/moving_obstacles/local_setup.zsh

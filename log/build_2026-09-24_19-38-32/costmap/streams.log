@@ -1,0 +1,29 @@
+[0.070s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap -- -j10 -l10
+[0.244s] [ 25%] Building CXX object CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o
+[1.945s] [ 50%] Linking CXX static library libcostmap_lib.a
+[2.064s] [ 50%] Built target costmap_lib
+[2.112s] [ 75%] Building CXX object CMakeFiles/costmap_node.dir/src/costmap_node.cpp.o
+[4.044s] [100%] Linking CXX executable costmap_node
+[4.106s] [100%] Built target costmap_node
+[4.113s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap -- -j10 -l10
+[4.115s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap
+[4.121s] -- Install configuration: ""
+[4.121s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/lib/costmap/costmap_node
+[4.137s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/config
+[4.137s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/config/params.yaml
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/ament_index/resource_index/package_run_dependencies/costmap
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/ament_index/resource_index/parent_prefix_path/costmap
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.sh
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.dsv
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/environment/path.sh
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/environment/path.dsv
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/local_setup.bash
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/local_setup.sh
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/local_setup.zsh
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/local_setup.dsv
+[4.138s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/package.dsv
+[4.138s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/ament_index/resource_index/packages/costmap
+[4.139s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig.cmake
+[4.139s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig-version.cmake
+[4.139s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/costmap/share/costmap/package.xml
+[4.140s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/costmap

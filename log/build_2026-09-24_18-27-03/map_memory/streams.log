@@ -1,0 +1,63 @@
+[0.017s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/map_memory -DCMAKE_INSTALL_PREFIX=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory
+[0.362s] -- The C compiler identification is AppleClang 21.0.0.21000334
+[0.443s] -- The CXX compiler identification is AppleClang 21.0.0.21000334
+[0.464s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.612s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.613s] -- Detecting C compile features
+[0.613s] -- Detecting C compile features - done
+[0.618s] -- Detecting CXX compiler ABI info
+[0.739s] -- Detecting CXX compiler ABI info - done
+[0.751s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.751s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.778s] -- Found ament_cmake: 1.3.14 (/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake/cmake)
+[0.908s] -- Found Python3: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 (found version "3.12.14") found components: Interpreter
+[1.107s] -- Found rclcpp: 16.0.19 (/Users/user/.local/share/mamba/envs/ros_humble/share/rclcpp/cmake)
+[1.246s] -- Found rosidl_generator_c: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_c/cmake)
+[1.266s] -- Found rosidl_adapter: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_adapter/cmake)
+[1.293s] -- Found rosidl_generator_cpp: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_cpp/cmake)
+[1.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.537s] -- Checking for module 'yaml-0.1'
+[1.656s] --   Found yaml-0.1, version 0.2.5
+[2.014s] -- Found rmw_implementation_cmake: 6.1.2 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_implementation_cmake/cmake)
+[2.024s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_cyclonedds_cpp/cmake)
+[2.095s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.123s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.262s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.262s] -- Found Threads: TRUE
+[2.351s] -- Found nav_msgs: 4.9.1 (/Users/user/.local/share/mamba/envs/ros_humble/share/nav_msgs/cmake)
+[2.492s] -- Configuring done (2.4s)
+[2.536s] -- Generating done (0.0s)
+[2.567s] -- Build files have been written to: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory
+[2.572s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/map_memory -DCMAKE_INSTALL_PREFIX=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory
+[2.574s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory -- -j10 -l10
+[2.634s] [ 25%] Building CXX object CMakeFiles/map_memory_lib.dir/src/map_memory_core.cpp.o
+[3.937s] [ 50%] Linking CXX static library libmap_memory_lib.a
+[3.987s] [ 50%] Built target map_memory_lib
+[4.017s] [ 75%] Building CXX object CMakeFiles/map_memory_node.dir/src/map_memory_node.cpp.o
+[6.115s] [100%] Linking CXX executable map_memory_node
+[6.181s] [100%] Built target map_memory_node
+[6.188s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory -- -j10 -l10
+[6.200s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory
+[6.208s] -- Install configuration: ""
+[6.208s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/lib/map_memory/map_memory_node
+[6.230s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/config
+[6.231s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/config/params.yaml
+[6.231s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/package_run_dependencies/map_memory
+[6.231s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/parent_prefix_path/map_memory
+[6.232s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.sh
+[6.232s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.dsv
+[6.232s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.sh
+[6.232s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.dsv
+[6.232s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.bash
+[6.232s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.sh
+[6.233s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.zsh
+[6.233s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.dsv
+[6.233s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.dsv
+[6.233s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/packages/map_memory
+[6.234s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig.cmake
+[6.234s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig-version.cmake
+[6.234s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.xml
+[6.235s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory

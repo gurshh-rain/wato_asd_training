@@ -13,6 +13,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 
 if(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
   foreach(_target rclcpp::rclcpp rcutils::rcutils)
@@ -28,13 +31,20 @@ endif()
 
 add_library(control_lib src/control_core.cpp)
 target_include_directories(control_lib PUBLIC include)
-ament_target_dependencies(control_lib rclcpp nav_msgs geometry_msgs)
+ament_target_dependencies(control_lib rclcpp nav_msgs geometry_msgs sensor_msgs visualization_msgs std_msgs)
 
 add_executable(control_node src/control_node.cpp)
 target_link_libraries(control_node control_lib)
-ament_target_dependencies(control_node rclcpp nav_msgs geometry_msgs)
+ament_target_dependencies(control_node rclcpp nav_msgs geometry_msgs sensor_msgs visualization_msgs std_msgs)
 
 install(TARGETS control_node DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
+
+if(BUILD_TESTING)
+  find_package(ament_cmake_gtest REQUIRED)
+  ament_add_gtest(test_control_core test/test_control_core.cpp)
+  target_link_libraries(test_control_core control_lib)
+  ament_target_dependencies(test_control_core rclcpp nav_msgs geometry_msgs sensor_msgs visualization_msgs std_msgs)
+endif()
 
 ament_package()

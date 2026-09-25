@@ -1,0 +1,5 @@
+source;share/odometry_spoof/local_setup.bash
+source;share/odometry_spoof/local_setup.dsv
+source;share/odometry_spoof/local_setup.ps1
+source;share/odometry_spoof/local_setup.sh
+source;share/odometry_spoof/local_setup.zsh

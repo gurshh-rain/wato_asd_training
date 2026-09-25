@@ -1,0 +1,17 @@
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/lib/control/control_node
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/config/params.yaml
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/package_run_dependencies/control
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/parent_prefix_path/control
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.bash
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.sh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.zsh
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.dsv
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/packages/control
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig.cmake
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig-version.cmake
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.xml

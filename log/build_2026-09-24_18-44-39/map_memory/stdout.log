@@ -1,0 +1,23 @@
+[ 50%] Built target map_memory_lib
+[ 75%] Building CXX object CMakeFiles/map_memory_node.dir/src/map_memory_node.cpp.o
+[100%] Linking CXX executable map_memory_node
+[100%] Built target map_memory_node
+-- Install configuration: ""
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/lib/map_memory/map_memory_node
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/config
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/config/params.yaml
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/package_run_dependencies/map_memory
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/parent_prefix_path/map_memory
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.sh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.sh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.dsv
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.bash
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.sh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.zsh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.dsv
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/packages/map_memory
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig.cmake
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig-version.cmake
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.xml

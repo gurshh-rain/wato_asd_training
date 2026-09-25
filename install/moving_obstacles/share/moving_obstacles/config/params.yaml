@@ -1,0 +1,4 @@
+moving_obstacles:
+  ros__parameters:
+    top_speed: 0.8
+    bottom_speed: 0.6

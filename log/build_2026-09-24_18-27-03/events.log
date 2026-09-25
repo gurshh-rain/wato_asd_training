@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.000181] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.000268] (-) JobUnselected: {'identifier': 'bringup_robot'}
+[0.000279] (-) JobUnselected: {'identifier': 'control'}
+[0.000289] (-) JobUnselected: {'identifier': 'costmap'}
+[0.000295] (-) JobUnselected: {'identifier': 'gazebo'}
+[0.000444] (-) JobUnselected: {'identifier': 'odometry_spoof'}
+[0.000455] (-) JobUnselected: {'identifier': 'planner'}
+[0.000462] (-) JobUnselected: {'identifier': 'producer'}
+[0.000467] (-) JobUnselected: {'identifier': 'producer'}
+[0.000473] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.000505] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.000516] (-) JobUnselected: {'identifier': 'transformer'}
+[0.000548] (-) JobUnselected: {'identifier': 'transformer'}
+[0.000584] (map_memory) JobQueued: {'identifier': 'map_memory', 'dependencies': OrderedDict()}
+[0.000593] (map_memory) JobStarted: {'identifier': 'map_memory'}
+[0.015019] (map_memory) JobProgress: {'identifier': 'map_memory', 'progress': 'cmake'}
+[0.016474] (map_memory) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/user/Desktop/VsCode/WATO/wato_asd_training/src/robot/map_memory', '-DCMAKE_INSTALL_PREFIX=/Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory'], 'cwd': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory', 'env': OrderedDict({'OGRE2_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE-Next', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'GDAL_DRIVER_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gdalplugins', 'PROJ_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/proj', 'GEM_HOME': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/', 'CONDA_SHLVL': '2', 'CONDA_PROMPT_MODIFIER': '(ros_humble)', 'GAZEBO_MODEL_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11/models:', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'MallocNanoZone': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'WINDSURF_IDE_TYPE': 'windsurf', 'AMENT_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble', 'GIT_TERMINAL_PROMPT': '0', 'USER': 'user', '_CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'LD_LIBRARY_PATH': ':/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'WINDSURF_EXT_HOST_PID': '1559', 'SSH_AUTH_SOCK': '/var/run/com.apple.launchd.yDVDxWvlvS/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x52', 'ROS_OS_OVERRIDE': 'conda:osx', 'MAMBA_EXE': '/Users/user/miniforge3/condabin/mamba', 'ELECTRON_RUN_AS_NODE': '1', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/user/miniforge3', 'ACP_BACKEND': 'windsurf', 'PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/bin:/Users/user/.codeium/windsurf/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/user/.local/share/mamba/envs/ros_humble/bin:/Users/user/miniforge3/condabin:/Users/user/.codeium/windsurf/bin:/Users/user/.docker/bin', 'GAZEBO_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11:', 'CPL_ZIP_ENCODING': 'UTF-8', 'GSETTINGS_SCHEMA_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/share/glib-2.0/schemas', 'PROJ_NETWORK': 'ON', 'XML_CATALOG_FILES': 'file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/.local/share/mamba/envs/ros_humble/etc/xml/catalog file:///etc/xml/catalog', 'CONDA_PREFIX': '/Users/user/.local/share/mamba/envs/ros_humble', '__CFBundleIdentifier': 'com.exafunction.windsurf', 'IGN_RENDERING_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/ignition/ignition-rendering6', 'PWD': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory', 'COLCON': '1', 'MAMBA_ROOT_PREFIX': '/Users/user/.local/share/mamba', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'OGRE_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANG': 'C.UTF-8', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'XPC_FLAGS': '0x0', 'MACH_PORT_RENDEZVOUS_PEER_VALDATION': '1', 'GDAL_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/gdal', 'XPC_SERVICE_NAME': '0', '_CE_M': '', '_CONDA_ROOT': '/Users/user/miniforge3', 'HOME': '/Users/user', 'SHLVL': '2', 'ROS_DISTRO': 'humble', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-ca","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Devin.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'HOMEBREW_PREFIX': '/opt/homebrew', 'GAZEBO_PLUGIN_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'CONDA_PYTHON_EXE': '/Users/user/miniforge3/bin/python', 'LOGNAME': 'user', 'PYTHONPATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/python312/site-packages:/Users/user/.local/share/mamba/envs/ros_humble/lib/python3.12/site-packages', 'VSCODE_CODE_CACHE_PATH': '/Users/user/Library/Application Support/Devin/CachedData/deb816008be02bf5f9da707b7def3ebdb53a51cd', 'VSCODE_IPC_HOOK': '/Users/user/Library/Application Support/Devin/1.12-main.sock', 'CONDA_DEFAULT_ENV': 'ros_humble', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'VSCODE_PID': '71141', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'OSLogRateLimit': '64', 'ROS_LOCALHOST_ONLY': '0', 'VSCODE_CWD': '/', 'ROS_ETC_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/etc/ros', '_': '/usr/bin/env', 'CMAKE_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble'}), 'shell': False}
+[0.100766] (-) TimerEvent: {}
+[0.201746] (-) TimerEvent: {}
+[0.302829] (-) TimerEvent: {}
+[0.361930] (map_memory) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 21.0.0.21000334\n'}
+[0.403402] (-) TimerEvent: {}
+[0.443155] (map_memory) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 21.0.0.21000334\n'}
+[0.464555] (map_memory) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.507068] (-) TimerEvent: {}
+[0.600970] (map_memory) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.607826] (-) TimerEvent: {}
+[0.612736] (map_memory) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.613059] (map_memory) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.613499] (map_memory) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.618199] (map_memory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.709900] (-) TimerEvent: {}
+[0.739957] (map_memory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.751302] (map_memory) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.751468] (map_memory) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.751771] (map_memory) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.778758] (map_memory) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/Users/user/.local/share/mamba/envs/ros_humble/share/ament_cmake/cmake)\n'}
+[0.810739] (-) TimerEvent: {}
+[0.908646] (map_memory) StdoutLine: {'line': b'-- Found Python3: /Users/user/.local/share/mamba/envs/ros_humble/bin/python3 (found version "3.12.14") found components: Interpreter\n'}
+[0.911578] (-) TimerEvent: {}
+[1.013294] (-) TimerEvent: {}
+[1.107613] (map_memory) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/Users/user/.local/share/mamba/envs/ros_humble/share/rclcpp/cmake)\n'}
+[1.113881] (-) TimerEvent: {}
+[1.215791] (-) TimerEvent: {}
+[1.246769] (map_memory) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_c/cmake)\n'}
+[1.266522] (map_memory) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_adapter/cmake)\n'}
+[1.293936] (map_memory) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/Users/user/.local/share/mamba/envs/ros_humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.316754] (-) TimerEvent: {}
+[1.325463] (map_memory) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.367632] (map_memory) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.418865] (-) TimerEvent: {}
+[1.523775] (-) TimerEvent: {}
+[1.537247] (map_memory) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[1.624771] (-) TimerEvent: {}
+[1.656921] (map_memory) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[1.726771] (-) TimerEvent: {}
+[1.827910] (-) TimerEvent: {}
+[1.928068] (-) TimerEvent: {}
+[2.014357] (map_memory) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.024809] (map_memory) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/user/.local/share/mamba/envs/ros_humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.028874] (-) TimerEvent: {}
+[2.095834] (map_memory) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.123571] (map_memory) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.130232] (-) TimerEvent: {}
+[2.231927] (-) TimerEvent: {}
+[2.262111] (map_memory) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.262724] (map_memory) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.335836] (-) TimerEvent: {}
+[2.351537] (map_memory) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/Users/user/.local/share/mamba/envs/ros_humble/share/nav_msgs/cmake)\n'}
+[2.436777] (-) TimerEvent: {}
+[2.492533] (map_memory) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.536247] (map_memory) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.536954] (-) TimerEvent: {}
+[2.567700] (map_memory) StdoutLine: {'line': b'-- Build files have been written to: /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory\n'}
+[2.572261] (map_memory) CommandEnded: {'returncode': 0}
+[2.572984] (map_memory) JobProgress: {'identifier': 'map_memory', 'progress': 'build'}
+[2.573776] (map_memory) Command: {'cmd': ['/opt/homebrew/bin/cmake', '--build', '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory', '--', '-j10', '-l10'], 'cwd': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory', 'env': OrderedDict({'OGRE2_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE-Next', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'GDAL_DRIVER_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gdalplugins', 'PROJ_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/proj', 'GEM_HOME': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/', 'CONDA_SHLVL': '2', 'CONDA_PROMPT_MODIFIER': '(ros_humble)', 'GAZEBO_MODEL_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11/models:', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'MallocNanoZone': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'WINDSURF_IDE_TYPE': 'windsurf', 'AMENT_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble', 'GIT_TERMINAL_PROMPT': '0', 'USER': 'user', '_CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'LD_LIBRARY_PATH': ':/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'WINDSURF_EXT_HOST_PID': '1559', 'SSH_AUTH_SOCK': '/var/run/com.apple.launchd.yDVDxWvlvS/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x52', 'ROS_OS_OVERRIDE': 'conda:osx', 'MAMBA_EXE': '/Users/user/miniforge3/condabin/mamba', 'ELECTRON_RUN_AS_NODE': '1', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/user/miniforge3', 'ACP_BACKEND': 'windsurf', 'PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/bin:/Users/user/.codeium/windsurf/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/user/.local/share/mamba/envs/ros_humble/bin:/Users/user/miniforge3/condabin:/Users/user/.codeium/windsurf/bin:/Users/user/.docker/bin', 'GAZEBO_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11:', 'CPL_ZIP_ENCODING': 'UTF-8', 'GSETTINGS_SCHEMA_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/share/glib-2.0/schemas', 'PROJ_NETWORK': 'ON', 'XML_CATALOG_FILES': 'file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/.local/share/mamba/envs/ros_humble/etc/xml/catalog file:///etc/xml/catalog', 'CONDA_PREFIX': '/Users/user/.local/share/mamba/envs/ros_humble', '__CFBundleIdentifier': 'com.exafunction.windsurf', 'IGN_RENDERING_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/ignition/ignition-rendering6', 'PWD': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory', 'COLCON': '1', 'MAMBA_ROOT_PREFIX': '/Users/user/.local/share/mamba', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'OGRE_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANG': 'C.UTF-8', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'XPC_FLAGS': '0x0', 'MACH_PORT_RENDEZVOUS_PEER_VALDATION': '1', 'GDAL_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/gdal', 'XPC_SERVICE_NAME': '0', '_CE_M': '', '_CONDA_ROOT': '/Users/user/miniforge3', 'HOME': '/Users/user', 'SHLVL': '2', 'ROS_DISTRO': 'humble', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-ca","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Devin.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'HOMEBREW_PREFIX': '/opt/homebrew', 'GAZEBO_PLUGIN_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'CONDA_PYTHON_EXE': '/Users/user/miniforge3/bin/python', 'LOGNAME': 'user', 'PYTHONPATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/python312/site-packages:/Users/user/.local/share/mamba/envs/ros_humble/lib/python3.12/site-packages', 'VSCODE_CODE_CACHE_PATH': '/Users/user/Library/Application Support/Devin/CachedData/deb816008be02bf5f9da707b7def3ebdb53a51cd', 'VSCODE_IPC_HOOK': '/Users/user/Library/Application Support/Devin/1.12-main.sock', 'CONDA_DEFAULT_ENV': 'ros_humble', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'VSCODE_PID': '71141', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'OSLogRateLimit': '64', 'ROS_LOCALHOST_ONLY': '0', 'VSCODE_CWD': '/', 'ROS_ETC_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/etc/ros', '_': '/usr/bin/env', 'CMAKE_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble'}), 'shell': False}
+[2.634421] (map_memory) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/map_memory_lib.dir/src/map_memory_core.cpp.o\n'}
+[2.637578] (-) TimerEvent: {}
+[2.741912] (-) TimerEvent: {}
+[2.842793] (-) TimerEvent: {}
+[2.943383] (-) TimerEvent: {}
+[3.043868] (-) TimerEvent: {}
+[3.146829] (-) TimerEvent: {}
+[3.249866] (-) TimerEvent: {}
+[3.351592] (-) TimerEvent: {}
+[3.452209] (-) TimerEvent: {}
+[3.552622] (-) TimerEvent: {}
+[3.655772] (-) TimerEvent: {}
+[3.760778] (-) TimerEvent: {}
+[3.861246] (-) TimerEvent: {}
+[3.937319] (map_memory) StdoutLine: {'line': b'[ 50%] Linking CXX static library libmap_memory_lib.a\n'}
+[3.961750] (-) TimerEvent: {}
+[3.987334] (map_memory) StdoutLine: {'line': b'[ 50%] Built target map_memory_lib\n'}
+[4.017196] (map_memory) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/map_memory_node.dir/src/map_memory_node.cpp.o\n'}
+[4.061875] (-) TimerEvent: {}
+[4.162515] (-) TimerEvent: {}
+[4.264893] (-) TimerEvent: {}
+[4.365895] (-) TimerEvent: {}
+[4.466821] (-) TimerEvent: {}
+[4.571812] (-) TimerEvent: {}
+[4.672772] (-) TimerEvent: {}
+[4.773893] (-) TimerEvent: {}
+[4.877773] (-) TimerEvent: {}
+[4.978820] (-) TimerEvent: {}
+[5.078949] (-) TimerEvent: {}
+[5.181401] (-) TimerEvent: {}
+[5.284835] (-) TimerEvent: {}
+[5.385974] (-) TimerEvent: {}
+[5.490745] (-) TimerEvent: {}
+[5.594868] (-) TimerEvent: {}
+[5.698813] (-) TimerEvent: {}
+[5.804142] (-) TimerEvent: {}
+[5.905879] (-) TimerEvent: {}
+[6.006805] (-) TimerEvent: {}
+[6.107957] (-) TimerEvent: {}
+[6.115151] (map_memory) StdoutLine: {'line': b'[100%] Linking CXX executable map_memory_node\n'}
+[6.181132] (map_memory) StdoutLine: {'line': b'[100%] Built target map_memory_node\n'}
+[6.188771] (map_memory) CommandEnded: {'returncode': 0}
+[6.190415] (map_memory) JobProgress: {'identifier': 'map_memory', 'progress': 'install'}
+[6.199841] (map_memory) Command: {'cmd': ['/opt/homebrew/bin/cmake', '--install', '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory'], 'cwd': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory', 'env': OrderedDict({'OGRE2_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE-Next', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'GDAL_DRIVER_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gdalplugins', 'PROJ_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/proj', 'GEM_HOME': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/7b/dqg0bryj1n7fsv_shbg_td4c0000gn/T/', 'CONDA_SHLVL': '2', 'CONDA_PROMPT_MODIFIER': '(ros_humble)', 'GAZEBO_MODEL_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11/models:', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'MallocNanoZone': '0', 'ROS_PYTHON_VERSION': '3', 'ROS_VERSION': '2', 'WINDSURF_IDE_TYPE': 'windsurf', 'AMENT_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble', 'GIT_TERMINAL_PROMPT': '0', 'USER': 'user', '_CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'LD_LIBRARY_PATH': ':/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/user/miniforge3/bin/conda', 'WINDSURF_EXT_HOST_PID': '1559', 'SSH_AUTH_SOCK': '/var/run/com.apple.launchd.yDVDxWvlvS/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x52', 'ROS_OS_OVERRIDE': 'conda:osx', 'MAMBA_EXE': '/Users/user/miniforge3/condabin/mamba', 'ELECTRON_RUN_AS_NODE': '1', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/user/miniforge3', 'ACP_BACKEND': 'windsurf', 'PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/rubygems/bin:/Users/user/.codeium/windsurf/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/user/.local/share/mamba/envs/ros_humble/bin:/Users/user/miniforge3/condabin:/Users/user/.codeium/windsurf/bin:/Users/user/.docker/bin', 'GAZEBO_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/gazebo-11:', 'CPL_ZIP_ENCODING': 'UTF-8', 'GSETTINGS_SCHEMA_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/share/glib-2.0/schemas', 'PROJ_NETWORK': 'ON', 'XML_CATALOG_FILES': 'file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/miniforge3/etc/xml/catalog file:///etc/xml/catalog file:///Users/user/.local/share/mamba/envs/ros_humble/etc/xml/catalog file:///etc/xml/catalog', 'CONDA_PREFIX': '/Users/user/.local/share/mamba/envs/ros_humble', '__CFBundleIdentifier': 'com.exafunction.windsurf', 'IGN_RENDERING_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/share/ignition/ignition-rendering6', 'PWD': '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/map_memory', 'COLCON': '1', 'MAMBA_ROOT_PREFIX': '/Users/user/.local/share/mamba', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'OGRE_RESOURCE_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/OGRE', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANG': 'C.UTF-8', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'XPC_FLAGS': '0x0', 'MACH_PORT_RENDEZVOUS_PEER_VALDATION': '1', 'GDAL_DATA': '/Users/user/.local/share/mamba/envs/ros_humble/share/gdal', 'XPC_SERVICE_NAME': '0', '_CE_M': '', '_CONDA_ROOT': '/Users/user/miniforge3', 'HOME': '/Users/user', 'SHLVL': '2', 'ROS_DISTRO': 'humble', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-ca","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Devin.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'HOMEBREW_PREFIX': '/opt/homebrew', 'GAZEBO_PLUGIN_PATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/gazebo-11/plugins:', 'CONDA_PYTHON_EXE': '/Users/user/miniforge3/bin/python', 'LOGNAME': 'user', 'PYTHONPATH': '/Users/user/.local/share/mamba/envs/ros_humble/lib/python312/site-packages:/Users/user/.local/share/mamba/envs/ros_humble/lib/python3.12/site-packages', 'VSCODE_CODE_CACHE_PATH': '/Users/user/Library/Application Support/Devin/CachedData/deb816008be02bf5f9da707b7def3ebdb53a51cd', 'VSCODE_IPC_HOOK': '/Users/user/Library/Application Support/Devin/1.12-main.sock', 'CONDA_DEFAULT_ENV': 'ros_humble', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'VSCODE_PID': '71141', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'OSLogRateLimit': '64', 'ROS_LOCALHOST_ONLY': '0', 'VSCODE_CWD': '/', 'ROS_ETC_DIR': '/Users/user/.local/share/mamba/envs/ros_humble/etc/ros', '_': '/usr/bin/env', 'CMAKE_PREFIX_PATH': '/Users/user/.local/share/mamba/envs/ros_humble'}), 'shell': False}
+[6.208227] (map_memory) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.208349] (-) TimerEvent: {}
+[6.208357] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/lib/map_memory/map_memory_node\n'}
+[6.230902] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/config\n'}
+[6.231232] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/config/params.yaml\n'}
+[6.231637] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/package_run_dependencies/map_memory\n'}
+[6.231851] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/parent_prefix_path/map_memory\n'}
+[6.232042] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.sh\n'}
+[6.232255] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/ament_prefix_path.dsv\n'}
+[6.232456] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.sh\n'}
+[6.232540] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/environment/path.dsv\n'}
+[6.232688] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.bash\n'}
+[6.232983] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.sh\n'}
+[6.233174] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.zsh\n'}
+[6.233400] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/local_setup.dsv\n'}
+[6.233643] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.dsv\n'}
+[6.233925] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/ament_index/resource_index/packages/map_memory\n'}
+[6.234289] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig.cmake\n'}
+[6.234430] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/cmake/map_memoryConfig-version.cmake\n'}
+[6.234546] (map_memory) StdoutLine: {'line': b'-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/map_memory/share/map_memory/package.xml\n'}
+[6.235643] (map_memory) CommandEnded: {'returncode': 0}
+[6.250235] (map_memory) JobEnded: {'identifier': 'map_memory', 'rc': 0}
+[6.250829] (-) EventReactorShutdown: {}

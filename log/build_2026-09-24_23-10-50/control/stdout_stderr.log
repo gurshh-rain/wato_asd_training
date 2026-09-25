@@ -1,0 +1,26 @@
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target control_lib
+[ 80%] Building CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o
+[ 90%] Built target test_control_core
+[100%] Linking CXX executable control_node
+[100%] Built target control_node
+-- Install configuration: ""
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/lib/control/control_node
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/config
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/config/params.yaml
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.sh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.sh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/environment/path.dsv
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.bash
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.sh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.zsh
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/local_setup.dsv
+-- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.dsv
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/ament_index/resource_index/packages/control
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig.cmake
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/cmake/controlConfig-version.cmake
+-- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/control/share/control/package.xml

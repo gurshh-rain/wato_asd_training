@@ -1,0 +1,16 @@
+dynamic_tracker:
+  ros__parameters:
+    cluster_threshold: 0.6
+    minimum_cluster_size: 2
+    maximum_cluster_radius: 0.9
+    association_gate: 1.2
+    dynamic_speed_threshold: 0.2
+    process_noise: 0.6
+    measurement_noise: 0.12
+    prediction_horizon: 5.0
+    occupancy_horizon: 3.0
+    prediction_step: 0.2
+    robot_radius: 0.9
+    safety_margin: 0.2
+    motion_min_x: -12.0
+    motion_max_x: 12.0

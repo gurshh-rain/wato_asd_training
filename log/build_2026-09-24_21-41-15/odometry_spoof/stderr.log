@@ -1,0 +1,5 @@
+ld: library 'atomic' not found
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [odometry_spoof] Error 1
+make[1]: *** [CMakeFiles/odometry_spoof.dir/all] Error 2
+make: *** [all] Error 2

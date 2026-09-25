@@ -613,6 +613,80 @@
         </model>
 
            
+        <model name='moving_obstacle_top' canonical_link='body'>
+            <static>false</static>
+            <pose>-10 12 0.75 0 0 0</pose>
+            <link name='body'>
+                <gravity>false</gravity>
+                <inertial>
+                    <mass>20</mass>
+                    <inertia>
+                        <ixx>5.4167</ixx>
+                        <iyy>5.4167</iyy>
+                        <izz>3.3333</izz>
+                    </inertia>
+                </inertial>
+                <visual name='visual'>
+                    <geometry><box><size>1 1 1.5</size></box></geometry>
+                    <material>
+                        <ambient>1 0.35 0 1</ambient>
+                        <diffuse>1 0.35 0 1</diffuse>
+                    </material>
+                </visual>
+                <collision name='collision'>
+                    <geometry><box><size>1 1 1.5</size></box></geometry>
+                </collision>
+            </link>
+            <plugin filename="ignition-gazebo-velocity-control-system"
+                    name="ignition::gazebo::systems::VelocityControl">
+                <topic>/moving_obstacle_top/cmd_vel</topic>
+            </plugin>
+            <plugin filename="libignition-gazebo-pose-publisher-system.so"
+                    name="ignition::gazebo::systems::PosePublisher">
+                <topicName>/moving_obstacle_top/pose</topicName>
+                <publish_model_pose>true</publish_model_pose>
+                <publish_link_pose>true</publish_link_pose>
+                <use_pose_vector_msg>true</use_pose_vector_msg>
+            </plugin>
+        </model>
+
+        <model name='moving_obstacle_bottom' canonical_link='body'>
+            <static>false</static>
+            <pose>10 -12 0.75 0 0 0</pose>
+            <link name='body'>
+                <gravity>false</gravity>
+                <inertial>
+                    <mass>20</mass>
+                    <inertia>
+                        <ixx>5.4167</ixx>
+                        <iyy>5.4167</iyy>
+                        <izz>3.3333</izz>
+                    </inertia>
+                </inertial>
+                <visual name='visual'>
+                    <geometry><box><size>1 1 1.5</size></box></geometry>
+                    <material>
+                        <ambient>1 0.35 0 1</ambient>
+                        <diffuse>1 0.35 0 1</diffuse>
+                    </material>
+                </visual>
+                <collision name='collision'>
+                    <geometry><box><size>1 1 1.5</size></box></geometry>
+                </collision>
+            </link>
+            <plugin filename="ignition-gazebo-velocity-control-system"
+                    name="ignition::gazebo::systems::VelocityControl">
+                <topic>/moving_obstacle_bottom/cmd_vel</topic>
+            </plugin>
+            <plugin filename="libignition-gazebo-pose-publisher-system.so"
+                    name="ignition::gazebo::systems::PosePublisher">
+                <topicName>/moving_obstacle_bottom/pose</topicName>
+                <publish_model_pose>true</publish_model_pose>
+                <publish_link_pose>true</publish_link_pose>
+                <use_pose_vector_msg>true</use_pose_vector_msg>
+            </plugin>
+        </model>
+
         <model name='robot' canonical_link='chassis'>
             <pose relative_to='world'>-6 0 1 0 0 0</pose>   <!--the pose is relative to the world by default-->
 

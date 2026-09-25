@@ -13,6 +13,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 
 if(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
   foreach(_target rclcpp::rclcpp rcutils::rcutils)
@@ -28,13 +29,20 @@ endif()
 
 add_library(planner_lib src/planner_core.cpp)
 target_include_directories(planner_lib PUBLIC include)
-ament_target_dependencies(planner_lib rclcpp nav_msgs geometry_msgs)
+ament_target_dependencies(planner_lib rclcpp nav_msgs geometry_msgs std_msgs)
 
 add_executable(planner_node src/planner_node.cpp)
 target_link_libraries(planner_node planner_lib)
-ament_target_dependencies(planner_node rclcpp nav_msgs geometry_msgs)
+ament_target_dependencies(planner_node rclcpp nav_msgs geometry_msgs std_msgs)
 
 install(TARGETS planner_node DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
+
+if(BUILD_TESTING)
+  find_package(ament_cmake_gtest REQUIRED)
+  ament_add_gtest(test_dstar_lite_planner test/test_lpa_planner.cpp)
+  target_link_libraries(test_dstar_lite_planner planner_lib)
+  ament_target_dependencies(test_dstar_lite_planner rclcpp nav_msgs geometry_msgs std_msgs)
+endif()
 
 ament_package()

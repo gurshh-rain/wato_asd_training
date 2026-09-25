@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker -- -j10 -l10
+[0.115s] [ 40%] Built target gtest_main
+[0.115s] [ 40%] Built target gtest
+[0.123s] [ 50%] Building CXX object CMakeFiles/dynamic_tracker_lib.dir/src/dynamic_tracker_core.cpp.o
+[1.344s] [ 60%] Linking CXX static library libdynamic_tracker_lib.a
+[1.464s] [ 60%] Built target dynamic_tracker_lib
+[1.523s] [ 70%] Linking CXX executable test_dynamic_tracker
+[1.529s] [ 80%] Building CXX object CMakeFiles/dynamic_tracker_node.dir/src/dynamic_tracker_node.cpp.o
+[1.612s] [ 90%] Built target test_dynamic_tracker
+[3.967s] [100%] Linking CXX executable dynamic_tracker_node
+[4.029s] [100%] Built target dynamic_tracker_node
+[4.036s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker -- -j10 -l10
+[4.039s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker
+[4.044s] -- Install configuration: ""
+[4.044s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/lib/dynamic_tracker/dynamic_tracker_node
+[4.062s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/config
+[4.062s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/config/params.yaml
+[4.063s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/ament_index/resource_index/package_run_dependencies/dynamic_tracker
+[4.063s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/ament_index/resource_index/parent_prefix_path/dynamic_tracker
+[4.063s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/ament_prefix_path.sh
+[4.063s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/ament_prefix_path.dsv
+[4.063s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/path.sh
+[4.063s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/environment/path.dsv
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.bash
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.sh
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.zsh
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/local_setup.dsv
+[4.064s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/package.dsv
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/ament_index/resource_index/packages/dynamic_tracker
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/cmake/dynamic_trackerConfig.cmake
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/cmake/dynamic_trackerConfig-version.cmake
+[4.064s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/dynamic_tracker/share/dynamic_tracker/package.xml
+[4.066s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/dynamic_tracker

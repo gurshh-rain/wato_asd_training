@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdynamic_tracker_lib.a CMakeFiles/dynamic_tracker_lib.dir/src/dynamic_tracker_core.cpp.o
+/usr/bin/ranlib libdynamic_tracker_lib.a

@@ -1,0 +1,10 @@
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/uninstall.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/odometry_spoof_uninstall.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/odometry_spoof.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/test.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/edit_cache.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/rebuild_cache.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/list_install_components.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/install.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/install/local.dir
+/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/odometry_spoof/CMakeFiles/install/strip.dir

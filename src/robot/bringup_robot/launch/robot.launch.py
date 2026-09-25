@@ -85,6 +85,28 @@ def generate_launch_description():
     ld.add_action(control_param)
     ld.add_action(control_node)
 
+    dynamic_tracker_pkg_prefix = get_package_share_directory('dynamic_tracker')
+    dynamic_tracker_param_file = os.path.join(
+        dynamic_tracker_pkg_prefix, 'config', 'params.yaml')
+    dynamic_tracker_node = Node(
+        package='dynamic_tracker',
+        name='dynamic_tracker',
+        executable='dynamic_tracker_node',
+        parameters=[dynamic_tracker_param_file],
+    )
+    ld.add_action(dynamic_tracker_node)
+
+    moving_obstacles_pkg_prefix = get_package_share_directory('moving_obstacles')
+    moving_obstacles_param_file = os.path.join(
+        moving_obstacles_pkg_prefix, 'config', 'params.yaml')
+    moving_obstacles_node = Node(
+        package='moving_obstacles',
+        name='moving_obstacles',
+        executable='moving_obstacles_node',
+        parameters=[moving_obstacles_param_file],
+    )
+    ld.add_action(moving_obstacles_node)
+
     #################### Odometry Spoof Node #####################
     odometry_spoof_node = Node(
         package='odometry_spoof',

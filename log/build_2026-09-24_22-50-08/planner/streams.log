@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner -- -j10 -l10
+[0.117s] [ 20%] Built target gtest_main
+[0.117s] [ 40%] Built target gtest
+[0.124s] [ 60%] Built target planner_lib
+[0.185s] [ 70%] Building CXX object CMakeFiles/planner_node.dir/src/planner_node.cpp.o
+[0.193s] [ 90%] Built target test_dstar_lite_planner
+[2.989s] [100%] Linking CXX executable planner_node
+[3.065s] [100%] Built target planner_node
+[3.076s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner -- -j10 -l10
+[3.090s] Invoking command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner
+[3.100s] -- Install configuration: ""
+[3.100s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/lib/planner/planner_node
+[3.122s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/config
+[3.122s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/config/params.yaml
+[3.123s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/ament_index/resource_index/package_run_dependencies/planner
+[3.123s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/ament_index/resource_index/parent_prefix_path/planner
+[3.123s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/environment/ament_prefix_path.sh
+[3.123s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/environment/ament_prefix_path.dsv
+[3.123s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/environment/path.sh
+[3.123s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/environment/path.dsv
+[3.123s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/local_setup.bash
+[3.124s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/local_setup.sh
+[3.124s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/local_setup.zsh
+[3.124s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/local_setup.dsv
+[3.124s] -- Installing: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/package.dsv
+[3.124s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/ament_index/resource_index/packages/planner
+[3.124s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/cmake/plannerConfig.cmake
+[3.124s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/cmake/plannerConfig-version.cmake
+[3.124s] -- Up-to-date: /Users/user/Desktop/VsCode/WATO/wato_asd_training/install/planner/share/planner/package.xml
+[3.126s] Invoked command in '/Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner' returned '0': CMAKE_PREFIX_PATH=/Users/user/.local/share/mamba/envs/ros_humble CONDA_PROMPT_MODIFIER=(ros_humble) SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/user/Desktop/VsCode/WATO/wato_asd_training/build/planner

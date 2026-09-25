@@ -27,6 +27,10 @@ def generate_launch_description():
         arguments=['/model/robot/pose@tf2_msgs/msg/TFMessage@ignition.msgs.Pose_V',
                    '/model/robot/pose_static@tf2_msgs/msg/TFMessage@ignition.msgs.Pose_V',
                    '/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',
+                   '/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock',
+                   '/world/sim_world/dynamic_pose/info@tf2_msgs/msg/TFMessage[ignition.msgs.Pose_V',
+                   '/moving_obstacle_top/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',
+                   '/moving_obstacle_bottom/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',
                    '/imu@sensor_msgs/msg/Imu@ignition.msgs.IMU',
                 #    '/lidar/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked',
                    '/lidar@sensor_msgs/msg/LaserScan@ignition.msgs.LaserScan',
@@ -37,7 +41,8 @@ def generate_launch_description():
         output='screen',
         remappings=[
             ('/model/robot/pose', '/tf'),
-            ('/model/robot/pose_static', '/tf')
+            ('/model/robot/pose_static', '/tf'),
+            ('/world/sim_world/dynamic_pose/info', '/simulation_poses')
         ]
     )
 
